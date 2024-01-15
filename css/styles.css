@@ -328,13 +328,13 @@ img {
 
 .team-l-i-div-l {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style-type: none;
     gap: 24px;
 }
 
-.team-l-i-div-l-i {
+.team-link-icon {
     display: flex;
     height: 40px;
     width: 40px;
@@ -346,7 +346,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-l-i-div-l-i:hover {
+.team-link-icon:hover {
     background-color: #404BBF;
 }
 /* #endregion Team */
