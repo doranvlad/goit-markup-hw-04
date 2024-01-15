@@ -78,7 +78,6 @@ img {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hd-nav-l-i:last-child {
@@ -92,6 +91,7 @@ img {
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hd-nav-l-i-a::after {
