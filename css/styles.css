@@ -94,7 +94,7 @@ img {
     padding-bottom: 24px;
 }
 
-.hd-nav-l-i::after {
+.hd-nav-l-i-a::after {
     content: "";
     position: absolute;
     width: 100%;
