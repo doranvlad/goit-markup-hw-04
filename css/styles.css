@@ -474,10 +474,13 @@ img {
 
 .foot-container {
     display: flex;
-    gap: 120px;
 }
 
-.foot-container-item-h3 {
+.foot-container-logo {
+    margin-right: 120px;
+}
+
+.foot-container-item-p {
     color: #FFF;
     font-family: Roboto;
     font-size: 16px;
@@ -492,6 +495,7 @@ img {
 
     display: flex;
     list-style-type: none;
+    align-items: baseline;
     gap: 16px;
 }
 
