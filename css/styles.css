@@ -474,6 +474,7 @@ img {
 
 .foot-container {
     display: flex;
+    align-items: baseline;
 }
 
 .foot-container-logo {
@@ -495,11 +496,10 @@ img {
 
     display: flex;
     list-style-type: none;
-    align-items: baseline;
     gap: 16px;
 }
 
-.foot-l-i {
+.foot-l-i-link {
     display: flex;
     width: 40px;
     height: 40px;
@@ -511,7 +511,7 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot-l-i:hover {
+.foot-l-i-link:hover {
     background-color: #31D0AA;
 }
 /* #endregion Footer */
